@@ -1,0 +1,9 @@
+# Ignore logs
+*.log
+
+# Ignore Kafka data directories if mounted locally
+data/
+tmp/
+
+# Ignore Docker artifacts
+*.pid
